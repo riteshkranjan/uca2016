@@ -7,7 +7,7 @@ app.use(express.static(__dirname + '/static'));
 
 app.get('/test', function(req, res){
   console.log("In method test");
-  res.end("hurray!! deals of india web service is working")
+  res.end("hurray!! local deals web service is working")
 });
 
 var server = app.listen(8080)
