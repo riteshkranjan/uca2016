@@ -7,7 +7,7 @@
 	
 	c. $sudo apt-get install npm
 
-2. Install nodemon - $npm install -g nodemon
+2. Install nodemon - $sudo npm install -g nodemon
 
 3. Goto your project directory
 
