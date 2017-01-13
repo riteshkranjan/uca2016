@@ -1,4 +1,4 @@
-#bullshit is what it is!:wq
+#hello this is a new commit is what it is!
 1. Install Node
 
 	a. $sudo apt-get install nodejs
