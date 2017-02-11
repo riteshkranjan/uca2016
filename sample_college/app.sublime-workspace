@@ -1,0 +1,432 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"temp",
+				"templateUrl"
+			],
+			[
+				"ava",
+				"avatar"
+			],
+			[
+				"n",
+				"networkFetch"
+			],
+			[
+				"new",
+				"networkResponse"
+			],
+			[
+				"net",
+				"networkResponse"
+			],
+			[
+				"update",
+				"updateCache"
+			],
+			[
+				"cach",
+				"cache"
+			],
+			[
+				"co",
+				"contentImgsCache"
+			],
+			[
+				"cac",
+				"caches"
+			],
+			[
+				"ca",
+				"cache"
+			],
+			[
+				"sot",
+				"storageUrl"
+			],
+			[
+				"cache",
+				"contentImgsCache"
+			],
+			[
+				"sto",
+				"storageUrl"
+			],
+			[
+				"ch",
+				"contentImgsCache"
+			],
+			[
+				"ad",
+				"advance"
+			],
+			[
+				"op",
+				"openCursor"
+			],
+			[
+				"obje",
+				"objectStore"
+			],
+			[
+				"_op",
+				"_postsView"
+			],
+			[
+				"add",
+				"addPosts"
+			],
+			[
+				"m",
+				"message"
+			],
+			[
+				"mess",
+				"messages"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"mes",
+				"messageData"
+			],
+			[
+				"db",
+				"dbPromise"
+			],
+			[
+				"get",
+				"getAll"
+			],
+			[
+				"ag",
+				"ageIndex"
+			],
+			[
+				"peop",
+				"peopleAge"
+			],
+			[
+				"d",
+				"dbPromise"
+			],
+			[
+				"create",
+				"createIndex"
+			],
+			[
+				"state",
+				"statechange"
+			],
+			[
+				"ins",
+				"installed"
+			],
+			[
+				"_",
+				"_updateReady"
+			],
+			[
+				"inde",
+				"indexController"
+			],
+			[
+				"wi",
+				"wittr-static-v1"
+			],
+			[
+				"a",
+				"Add"
+			],
+			[
+				"Re",
+				"response"
+			],
+			[
+				"ser",
+				"serviceWorker"
+			],
+			[
+				"Un",
+				"unknown"
+			],
+			[
+				"stat",
+				"statusText"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"proj",
+				"project"
+			],
+			[
+				"p",
+				"projects"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"image",
+				"images"
+			],
+			[
+				"pro",
+				"project"
+			],
+			[
+				"to",
+				"toUpperCase"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"we",
+				"welcomeMessage"
+			],
+			[
+				"form",
+				"formattedMobile"
+			],
+			[
+				"em",
+				"email"
+			],
+			[
+				"bio",
+				"bioPic"
+			],
+			[
+				"bi",
+				"biopic"
+			],
+			[
+				"jo",
+				"job"
+			],
+			[
+				"for",
+				"formattedEmployerTitle"
+			],
+			[
+				"de",
+				"designation"
+			],
+			[
+				"job",
+				"jobs"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 242.0,
+		"last_filter": "Reide",
+		"selected_items":
+		[
+			[
+				"Reide",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/apache-tomcat-8.0.35/webapps/MGWayClient/js/routes.js",
+		"/E/apache-tomcat-8.0.35/webapps/MGWayClient/js/controllers/controller.js",
+		"/E/apache-tomcat-8.0.35/webapps/MGWayClient/js/app.js",
+		"/E/apache-tomcat-8.0.35/webapps/MGWayClient/templates/pages/demo.html",
+		"/E/apache-tomcat-8.0.35/webapps/MGWayClient/index.html",
+		"/C/Users/Ritesh/Desktop/Offline_WebApps/wittr/public/scss/_theme.scss",
+		"/C/Users/Ritesh/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Ritesh/Desktop/Offline_WebApps/wittr/public/js/main/IndexController.js",
+		"/C/Users/Ritesh/Desktop/JS Promises/exoplanet-explorer/app/index.html",
+		"/C/Users/Ritesh/Desktop/JS Promises/exoplanet-explorer/app/styles/app-theme.html",
+		"/C/Users/Ritesh/Desktop/JS Promises/exoplanet-explorer/app/robots.txt",
+		"/C/Users/Ritesh/Desktop/js_tools/gulpfile.js",
+		"/C/Users/Ritesh/Desktop/JS Promises/exoplanet-explorer/app/styles/main.css",
+		"/C/Users/Ritesh/Desktop/JS Promises/exoplanet-explorer/app/styles/shared-styles.html",
+		"/C/Users/Ritesh/Desktop/JS Promises/readyState-start/readyState-start/index.html",
+		"/E/Study Materials/JS/beginner-html-site-styled-gh-pages/beginner-html-site-styled-gh-pages/index.html",
+		"/E/Study Materials/JS/beginner-html-site-styled-gh-pages/beginner-html-site-styled-gh-pages/scripts/main.js",
+		"/C/Users/Ritesh/Documents/SublimeProjects/frontend-nanodegree-resume/js/resumeBuilder.js",
+		"/C/Users/Ritesh/Documents/SublimeProjects/frontend-nanodegree-resume/index.html",
+		"/C/Users/Ritesh/Documents/SublimeProjects/frontend-nanodegree-resume/js/helper.js"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"    ",
+			"dateIndex",
+			"\n    ",
+			"  \n",
+			"hello",
+			"\").",
+			"Internationalize"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "app.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 127.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 270.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
