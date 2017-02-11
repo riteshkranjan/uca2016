@@ -22,7 +22,6 @@ module.exports.addStudent = function(student, callback){
 	Student.create(student, callback);
 }
 
-
 module.exports.updateStudent = function(id, student, callback){
 	var query = {_id: id};
 	var update = {
@@ -33,6 +32,5 @@ module.exports.updateStudent = function(id, student, callback){
 
 module.exports.deleteStudent = function(id, callback){
 	var query = {_id: id};
-	
 	Student.remove(query, callback);
 }
