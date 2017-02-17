@@ -8,7 +8,7 @@ var studentSchema = mongoose.Schema({
 
 	}
 });
-var Student = module.exports = mongoose.model('students', studentSchema);
+var Student = module.exports = mongoose.model('college', studentSchema, 'students');
 
 module.exports.getStudent = function(callback, limit){
 	Student.find(callback).limit(limit);
@@ -26,8 +26,9 @@ module.exports.updateStudent = function(id, student, callback){
 	var query = {_id: id};
 	var update = {
 		name: student.name
-	}
+	};
 	Student.findOneAndUpdate(query, update, callback);
+	// Student.findById(id, callback);
 }
 
 module.exports.deleteStudent = function(id, callback){

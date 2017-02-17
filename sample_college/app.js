@@ -3,6 +3,8 @@ var app = express();
 var bodyParser = require('body-parser');
 var config = require('./config.json');
 app.use(bodyParser.json());
+app.use(express.static(__dirname + "/client"));
+
 
 var mongoose = require('mongoose');
 mongoose.connect(config.connectionString);
@@ -62,6 +64,6 @@ app.delete('/student/:_id', function(req,res){
 	});
 });
 
-var server = app.listen('9090', function(){
+var server = app.listen('8080', function(){
 	console.log('Server listening at http://' + server.address().address + ':' + server.address().port);
 });
