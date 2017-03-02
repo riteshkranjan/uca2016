@@ -1,0 +1,14 @@
+<div ng-controller="getstudentsController as getStdsCtlr">
+  <table class="table table-hover table-striped table-bordered">
+    <tr>
+      <th>Sr. No.</th>
+      <th>Name</th>
+      <th>Age</th>
+    </tr>
+    <tr ng-repeat="student in getStdsCtlr.students">
+      <td>{{student._id}}</td>
+      <td>{{student.name}}</td>
+      <td>{{student.age}}</td>
+    </tr>
+  </table>
+</div>
