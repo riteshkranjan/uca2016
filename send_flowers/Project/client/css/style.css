@@ -1,0 +1,48 @@
+
+#search_bar{
+    margin-top: 1%;
+    padding:0.75%; 
+    width:70%;
+    margin-bottom: 2px;
+}
+
+.topbuffer {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#main{
+    margin-top: 60px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    #main_page{
+        margin-bottom: 50px;
+        margin-top: 90px;
+    }
+}
+footer{
+    background-color: rgb(38, 38, 38);
+    color: white;
+};
+
+
+*{
+    border-style: dotted;
+    border-width: 0px;
+}
+
+
+
+
+#header{
+    background-color: rgba(0, 90, 255, 0.47);
+    text-align: center;
+    margin-top: 50px;
+
+};
+
+#dynamicview {
+    background-color: rgba(98, 0, 255, 0.11);
+};
+
