@@ -1,5 +1,10 @@
 var mongoose = require('mongoose');
+var fs = require('fs');
+
 var sellerSchema = mongoose.Schema({
+	username:{
+		type:String
+	},
 	name:{
 		type: String,
 		required: true
@@ -9,8 +14,22 @@ var sellerSchema = mongoose.Schema({
 
 	},
 	file:{
-		type: String
+		data: Buffer,
+		contentType: String
+	},
+	stock:{
+		type: String,
+		default:"Available"
+	},
+	reviews:{
+		type:[String]
+	},
+	rating:{
+		type: Number,
+		min: 1,
+		max: 5
 	}
+
 
 });
 var Seller = module.exports = mongoose.model('flowers', sellerSchema, 'seller');
@@ -24,13 +43,17 @@ module.exports.getSellerById = function(id , callback){
 }
 
 module.exports.addSeller = function(seller, callback){
+	Seller.file.data =  fs.readFileSync(Seller.file.data);
 	Seller.create(seller, callback);
 }
 
 module.exports.updateSeller = function(id, seller, callback){
 	var query = {_id: id};
 	var update = {
-		name: seller.name
+		name: seller.name,
+		price: seller.price,
+		file: seller.file,
+		stock: seller.stock
 	};
 	Seller.findOneAndUpdate(query, update, callback);
 	

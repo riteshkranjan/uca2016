@@ -15,16 +15,24 @@
     </div>
 
     <div class="form-group">
-      <label for="name" class="col-sm-2 control-label">Price </label>
+      <label for="price" class="col-sm-2 control-label">Price </label>
       <div class="col-sm-10">
-          <input type="text" class="form-control" id="price" placeholder="Price" ng-model="updatePrdCtlr.student.price">
+          <input type="text" class="form-control" id="price" placeholder="Price" ng-model="updatePrdCtlr.student.price" required>
       </div>
     </div>
 
     <div class="form-group">
       <label for="file" class="col-sm-2 control-label">Upload File</label>
       <div class="col-sm-10">
-          <input type="file" id="file" ng-model="updatePrdCtlr.student.file">
+          <input type="file" id="file" ng-model="updatePrdCtlr.student.file"required>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="stock" class="col-sm-2 control-label">Availability</label>
+      <div class="col-sm-10" >
+          <input type="radio" id="Available" ng-checked="true" ng-model="updatePrdCtlr.student.stock" value="Available"><span class="myRadioOption" >Available</span>
+          <input type="radio" id="OutofStock" ng-model="updatePrdCtlr.student.stock" value="Out of Stock"><span class="myRadioOption">Out of Stock</span>
       </div>
     </div>
 

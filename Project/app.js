@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+var fs = require('fs');
 var bodyParser = require('body-parser');
 var config = require('./config.json');
 app.use(bodyParser.json());

@@ -1,5 +1,6 @@
 var app = angular.module("angApp", ["ui.router"]);
 
+
 app.controller("mainController", function(){
   // this.tab = 1;
   this.selectTab = function(selectedTab){
@@ -41,6 +42,7 @@ app.controller("getsellersController", function($http){
 
 app.controller("addProductController", function($http){
   this.student = {};
+ // student.file =  = fs.readFileSync(student.file);
   this.submitUserDetails = function() {
     $http.post('http://localhost:8080/student', this.student).then(function successCallback(response) {
           console.log("Inside success callback for Add Product");
