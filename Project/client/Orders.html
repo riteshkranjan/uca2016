@@ -13,8 +13,8 @@
   <link rel="stylesheet" href="css/style.css"/>
 <head>
 
-<body ng-app = "angApp">
-    <nav class="navbar navbar-inverse text-center navbar-fixed-top">
+<body ng-app = "OrderApp" id="sell2main">
+    <nav class="navbar navbar-default text-center navbar-fixed-top">
         
         <div class="container-fluid">
             
@@ -28,7 +28,7 @@
                 
                 </button>
               
-                <a class="navbar-brand" href="#/">Flowers.com</a>
+                <a class="navbar-brand" href="index.html">Flowers.com</a>
             
             </div>
             
@@ -47,7 +47,7 @@
       <div class="collapse navbar-collapse" id="myNavbar">
                 <ul  class="nav navbar-nav">
 
-                    <li><a href="#/">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                    
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown">Services</a>
@@ -70,7 +70,8 @@
                         </ul>
 
                     </li>
-                    <li><a href="">Products</a></li>
+                    <li><a href="Products.html">Products</a></li>
+                    <li><a href="#">Orders</a></li>
                     <li><a href="Seller/index.html" id="signup">Log Out</a></li>
                 </ul>
 
@@ -79,27 +80,25 @@
     </nav>
 
 
-    <div id = "main" class="container" ng-controller="mainController as mainCtlr" >
+    <div id = "main" class="container" ng-controller="OrderController as odrCtlr" >
 
         <div  class="row">
-            <header id="header" class="page-header">
-                <h1 >Seller's Product Manager</h1>
+            <header id="header" class="page-header sell2 text-center">
+                <h1 >Seller's Order Manager</h1>
             </header>
          </div>
 
         <div class="row" class="top-buffer">
             <nav role="navigation">
                 <ul class="nav nav-pills nav-justified" style="border-style: solid; border-width: 1px;">
-                    <li ng-class="{active: mainCtlr.tab===1}"><a ui-sref="showallproducts" ng-click="mainCtlr.selectTab(1)">Show all Products</a></li>
-                    <li ng-class="{active: mainCtlr.tab===2}"><a ui-sref="addnewproduct" ng-click="mainCtlr.selectTab(2)">Add new Product</a>
-                    </li>
-                    <li ng-class="{active: mainCtlr.tab===3}"><a ui-sref="updateproduct" ng-click="mainCtlr.selectTab(3)">Update Product</a></li>
-                    <li ng-class="{active: mainCtlr.tab===4}"><a ui-sref="deleteproduct" ng-click="mainCtlr.selectTab(4)">Delete Product</a></li>
+                    <li ng-class="{active: odrCtlr.tab===1}"><a ui-sref="showallOrders" ng-click="odrCtlr.selectTab(1)">Show all Orders</a></li>
+                    <li ng-class="{active: odrCtlr.tab===2}"><a ui-sref="addOrder" ng-click="odrCtlr.selectTab(2)">Add Order</a></li>
+                    <li ng-class="{active: odrCtlr.tab===3}"><a ui-sref="updateOrder" ng-click="odrCtlr.selectTab(3)">Update Orders</a></li>
                 </ul>
             </nav>
         </div>
 
-        <div id="dynamicview" class="row" style="margin-top: 20px; background-color: rgba(98, 0, 255, 0.11);">
+        <div id="dynamicview" class="row sell2" style="margin-top: 20px; background-color: rgba(98, 0, 255, 0.11);">
         
             <div ui-view></div>
         

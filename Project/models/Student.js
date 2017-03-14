@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var fs = require('fs');
+//var fs = require('fs');
 
 var sellerSchema = mongoose.Schema({
 	username:{
@@ -14,8 +14,7 @@ var sellerSchema = mongoose.Schema({
 
 	},
 	file:{
-		data: Buffer,
-		contentType: String
+		type: String
 	},
 	stock:{
 		type: String,
@@ -29,10 +28,11 @@ var sellerSchema = mongoose.Schema({
 		min: 1,
 		max: 5
 	}
-
-
 });
+
+
 var Seller = module.exports = mongoose.model('flowers', sellerSchema, 'seller');
+
 
 module.exports.getSeller = function(callback, limit){
 	Seller.find(callback).limit(limit);
@@ -43,7 +43,6 @@ module.exports.getSellerById = function(id , callback){
 }
 
 module.exports.addSeller = function(seller, callback){
-	Seller.file.data =  fs.readFileSync(Seller.file.data);
 	Seller.create(seller, callback);
 }
 

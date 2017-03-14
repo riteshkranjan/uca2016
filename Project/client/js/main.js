@@ -1,14 +1,8 @@
 
-var app = angular.module("myApp", ["ngRoute"]);
-app.config(function($routeProvider) {
+var app1 = angular.module("myApp", ["ngRoute"]);
+app1.config(function($routeProvider) {
     $routeProvider
     .when("/", {
-        templateUrl : "index3.html"
-    })
-    .when("/products", {
-        templateUrl : "index1.html"
-    })
-    .when("/signup2", {
-        templateUrl : "flowers.html"
+        templateUrl : "main_index.html"
     })
 });
