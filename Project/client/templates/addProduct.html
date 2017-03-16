@@ -1,0 +1,40 @@
+<div ng-controller = "addProductController as addPrdCtlr" >
+  
+  <form class="form-horizontal" ng-submit="addPrdCtlr.submitUserDetails()">
+    <div class="form-group" style="margin-top: 15px;">
+      <label for="name" class="col-sm-2 control-label">Product Name</label>
+      <div class="col-sm-10">
+          <input type="text" class="form-control" id="name" placeholder="Name" ng-model="addPrdCtlr.student.name" required>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="price" class="col-sm-2 control-label">Price</label>
+      <div class="col-sm-10">
+          <input type="number" class="form-control" id="price" placeholder="Price" ng-model="addPrdCtlr.student.price" required>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="file" class="col-sm-2 control-label">Upload File</label>
+      <div class="col-sm-10">
+          <input type="file" id="fil" accept="image/*" ng-model="addPrdCtlr.student.file">
+      </div>
+    </div>
+
+     <div class="form-group">
+      <label for="stock" class="col-sm-2 control-label">Availability</label>
+      <div class="col-sm-10" ng-init="myRadio='Available'">
+          <input type="radio" ng-model="addPrdCtlr.student.stock" value="Available" ng-checked="true"><span class="myRadioOption">Available</span>
+          <input type="radio" ng-model="addPrdCtlr.student.stock"  value="Out of Stock"><span class="myRadioOption">Out of Stock</span>
+      </div>
+       
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+
+  </form>
+</div>

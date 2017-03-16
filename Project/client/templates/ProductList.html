@@ -1,0 +1,18 @@
+<div ng-controller="getsellersController as getSlrsCtlr">
+  <table class="table table-hover table-striped table-bordered">
+    <tr>
+      <th>Product Id</th>
+      <th>Product Name</th>
+      <th>Price</th>
+      <th>Images</th>
+      <th>Availability</th>
+    </tr>
+    <tr ng-repeat="seller in getSlrsCtlr.students">
+      <td>{{seller._id}}</td>
+      <td>{{seller.name}}</td>
+      <td>{{seller.price}}</td>
+      <td>{{seller.file}}</td>
+      <td>{{seller.stock}}</td>
+    </tr>
+  </table>
+</div>

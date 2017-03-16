@@ -1,0 +1,80 @@
+#step1{
+	 background-image: url("img/first.png");
+}
+
+#step2{
+	background-image: url("img/2nd.png");	
+}
+
+#step3{
+	background-image: url("img/3rd.png");	
+}
+
+#guestmain{
+	background-color: rgb(255,250,240,1 );
+}
+
+#main_page{
+	margin-bottom: 50px;
+	margin-top: 50px;
+	
+}
+
+.text-style{
+	font-weight: bold;
+	color: rgb(120,139,196);
+	font-family: monospace;
+	background-color: rgb(255,250,240,0.5 );
+}
+
+
+.heading{
+	font-weight: bold;
+	background-color: rgb(255,250,240,0.5);
+	color: rgb(120,139,196);
+	font-family: monospace;
+}
+
+.parallax {
+	min-height: 500px;
+    width: 100%;   
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+        min-height:200px;
+    }
+    #main_page{
+    	margin-bottom: 50px;
+		margin-top: 90px;
+    }
+}
+
+#search_bar{
+	margin-top: 1%;
+	padding:0.75%; 
+	width:80%;
+	margin-bottom: 2px;
+}
+
+.t1{
+	background-color: rgb(51,162,94);
+	height: 50px;
+	padding:0.8%;
+}
+
+
+
+#search_btn{
+	padding: 0.5%;
+}
+
+footer{
+  background-color: rgb(38, 38, 38);
+  color: white;
+};

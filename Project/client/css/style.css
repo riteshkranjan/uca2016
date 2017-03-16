@@ -1,0 +1,81 @@
+#heading{
+    font-family: monospace;
+    padding: 20px;
+    font-weight: bold;
+    color: rgb(119,136,153);
+    scolor: rgb(215,100,100);
+}
+
+#sell2main{
+    background-color: rgb(255,250,240,1 );
+}
+
+.sell2{
+    
+   font-weight: bold;
+    color: rgb(119,136,153);
+    font-family: monospace;
+    background-color: rgb(255,250,240,0.7);
+}
+
+.equal-col{
+    display: table-cell;
+}
+
+.col2{
+    padding: 15px;
+}
+
+#search_bar{
+    margin-top: 1%;
+    padding:0.75%; 
+    width:70%;
+    margin-bottom: 2px;
+}
+
+.topbuffer {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#main{
+    margin-top: 60px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    #main_page{
+        margin-bottom: 50px;
+        margin-top: 90px;
+    }
+}
+footer{
+    background-color: rgb(38, 38, 38);
+    color: white;
+};
+
+
+*{
+    border-style: dotted;
+    border-width: 0px;
+}
+
+.myRadioOption{
+    padding: 30px;
+}
+
+
+#header{
+    margin-top: 50px;
+    padding: 4px;
+     font-weight: bold;
+    color: rgb(215,100,100);
+    font-family: monospace;
+
+};
+
+#dynamicview {
+    background-color: rgba(98, 0, 255, 0.11);
+};
+
+
+

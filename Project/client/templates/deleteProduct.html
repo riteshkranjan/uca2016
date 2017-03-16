@@ -1,0 +1,17 @@
+<div ng-controller = "deleteProductController as deletePrdCtlr">
+  <form class="form-horizontal" ng-submit="deletePrdCtlr.submitUserDetails()">
+    <div class="form-group" style="margin-top: 15px;">
+      <label for="id" class="col-sm-2 control-label">Product Id</label>
+      <div class="col-sm-10">
+          <input type="text" class="form-control" id="id" placeholder="Product Id" ng-model="deletePrdCtlr.studentid" required>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+
+  </form>
+<div>

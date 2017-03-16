@@ -1,0 +1,115 @@
+<html>
+
+<head>
+  <title>Product Management</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  <link rel="stylesheet" href="css/style.css"/>
+<head>
+
+<body ng-app = "angApp" id="sell2main">
+    <nav class="navbar navbar-default text-center navbar-fixed-top">
+        
+        <div class="container-fluid">
+            
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                
+                </button>
+              
+                <a class="navbar-brand" href="index.html">Flowers.com</a>
+            
+            </div>
+            
+        <div class="col-sm-6 ">
+            
+                <form>
+                    
+                    <input type="text" id="search_bar" placeholder="Enter Flower Name">
+                    <button id="search_btn" type="submit" class="btn btn-default">Submit</button>
+                
+                </form>
+
+            </div>
+
+      
+      <div class="collapse navbar-collapse" id="myNavbar">
+                <ul  class="nav navbar-nav">
+
+                    <li><a href="index.html">Home</a></li>
+                   
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Services</a>
+                      
+                        <ul class="dropdown-menu">
+                            <li><a>Fullfillment</a></li>
+                            <li><a>Pay with Us</a></li>
+                            <li><a>Global Selling</a></li>
+                        </ul>
+                
+                    </li>
+
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Contact Us</a>
+                        <ul class="dropdown-menu">
+
+                            <li><a>Customer Support at customer@flowers.com</a></li>
+                            <li><a>Seller Support at seller@flowers.com</a></li>
+                            <li><a>Call Us at +91-8968880020</a></li>
+                            
+                        </ul>
+
+                    </li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="Orders.html">Orders</a></li>
+                    <li><a href="Seller/index.html" id="signup">Log Out</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <div id = "main" class="container" ng-controller="mainController as mainCtlr" >
+
+        <div  class="row">
+            <header id="header" class="page-header sell2 text-center">
+                <h1 >Seller's Product Manager</h1>
+            </header>
+         </div>
+
+        <div class="row" class="top-buffer">
+            <nav role="navigation">
+                <ul class="nav nav-pills nav-justified" style="border-style: solid; border-width: 1px;">
+                    <li ng-class="{active: mainCtlr.tab===1}"><a ui-sref="showallproducts" ng-click="mainCtlr.selectTab(1)">Show all Products</a></li>
+                    <li ng-class="{active: mainCtlr.tab===2}"><a ui-sref="addnewproduct" ng-click="mainCtlr.selectTab(2)">Add new Product</a>
+                    </li>
+                    <li ng-class="{active: mainCtlr.tab===3}"><a ui-sref="updateproduct" ng-click="mainCtlr.selectTab(3)">Update Product</a></li>
+                    <li ng-class="{active: mainCtlr.tab===4}"><a ui-sref="deleteproduct" ng-click="mainCtlr.selectTab(4)">Delete Product</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="dynamicview" class="row sell2" style="margin-top: 20px; background-color: rgba(98, 0, 255, 0.11);">
+        
+            <div ui-view></div>
+        
+        </div>
+    
+    </div>
+
+    <footer class="text-center navbar-fixed-bottom">© 2016-2017, Flowers.com, Inc. or its affiliate</footer>
+
+</body>
+
+</html>

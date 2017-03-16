@@ -1,0 +1,3 @@
+use flowers;
+db.createCollection('seller');
+db.students.create({"name":"rose","price":"100"});
