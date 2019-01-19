@@ -1,0 +1,17 @@
+*{
+  border-style: dotted;
+  border-width: 0px;
+}
+
+.topbuffer {
+  margin-top: 20px;
+}
+
+#header{
+  background-color: rgba(0, 90, 255, 0.47);
+  text-align: center;
+};
+
+#dynamicview {
+  background-color: rgba(98, 0, 255, 0.11);
+};

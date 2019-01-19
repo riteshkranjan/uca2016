@@ -1,4 +1,11 @@
 As shop keeper:
-
+I should be able to register as shopkeeper with shop's location
+I should be able to select product category from the available list
+I should be able to add the products with Price under the available categories
+I should be able to manage the availability of products
 
 As user:
+I should be able to register as a user and provide address
+I should be able to search the products with a given radius
+I should be able to sort products based on price
+I should be able to select, order the product and make the payment

@@ -1,4 +1,15 @@
 As flower shop keeper:
-
+I should be able to register as shopkeeper on the website
+I should be able to add the new flowers with flowername, images, price to the web site
+I should be able to mark any item as available, sold as per the count and orders received
+I should be able see the orders list
+I should be able to ship the item to a specific address and mark it as shipped
 
 As user:
+I should be able to register as user
+I should be able to see the list with preview of flowers available
+I should be able to see the images of the flower
+I should be able to see the price
+I shoule be select and order the item
+I should be able to specify which address to ship
+I should be rate the shopkeeper and product

@@ -1,3 +1,11 @@
 As travel agent:
+I should be able to login and register as travel agent
+I should be able to I should be able to create itnerary with start location, end location and places to visit
+I should be able to book the return tickets for the location selected
+I should be enter the details of the user corresponding to the entry
 
 As user:
+I should be able to login and register as user
+I should be able to I should be able to create itnerary with start location, end location and places to visit
+I should be able to book return tickets 
+I should be able to rate the trip and webportal
